@@ -25,8 +25,10 @@
       <br>
     </div>
 
-    <div id="app">
+    <div id="app2">
+      <h1>Most recent face swap!</h1>
       <img src="https://resulting-image-bucket.s3.us-east-2.amazonaws.com/result.jpg" />
+      <h2>Refresh if you don't see your result.</h2>
     </div>
   
     <script>
@@ -96,19 +98,26 @@
     </script>
     <style type="text/css">
       body {
-        background: #00394e;
+        background: #FFCB05;
         padding: 20px;
         font-family: sans-serif;
       }
       #app {
-        background: #36d04c;
+        background: #7ADEFE;
+        border-radius: 4px;
+        padding: 20px;
+        transition: all 0.2s;
+        text-align: center;
+      }
+      #app2 {
+        background: #34641A;
         border-radius: 4px;
         padding: 20px;
         transition: all 0.2s;
         text-align: center;
       }
       title,h1,h2{
-        color:#00394e;
+        color:#C70307;
       }
 
       #logo {
